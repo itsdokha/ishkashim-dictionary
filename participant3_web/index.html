@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ишкашимский словарь</title>
+  <meta name="description" content="Учебный двуязычный (ишкашимско-русский) веб-словарь ишкашимского языка." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!--
+    Разметка интерфейса. Вся динамика (загрузка данных, поиск, отрисовка
+    карточек) живёт в ./src/app.js — это ES-модуль, поэтому подключаем его
+    через type="module" в самом низу страницы.
+  -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Ишкашимский словарь</h1>
+      <p class="site-subtitle">
+        Учебный двуязычный словарь · ишкашимский ↔ русский
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Панель поиска и фильтров -->
+    <section class="search-panel" aria-label="Поиск по словарю">
+      <div class="search-row">
+        <input
+          id="search-input"
+          class="search-input"
+          type="search"
+          placeholder="Введите слово (ишкашимское или русское)…"
+          autocomplete="off"
+          autofocus
+        />
+        <button id="clear-button" class="clear-button" type="button" title="Очистить">
+          ✕
+        </button>
+      </div>
+
+      <div class="filters-row">
+        <label class="filter">
+          <span class="filter-label">Где искать</span>
+          <select id="mode-select" class="filter-control">
+            <option value="all">Везде</option>
+            <option value="ishkashimi">По ишкашимскому</option>
+            <option value="russian">По русскому переводу</option>
+          </select>
+        </label>
+
+        <label class="filter">
+          <span class="filter-label">Часть речи</span>
+          <!-- Опции этого select заполняются из данных в app.js -->
+          <select id="pos-select" class="filter-control">
+            <option value="all">Все части речи</option>
+          </select>
+        </label>
+      </div>
+
+      <p id="status-line" class="status-line" role="status" aria-live="polite"></p>
+    </section>
+
+    <!-- Двухколоночный макет: список результатов + карточка слова -->
+    <section class="layout">
+      <div class="results-pane">
+        <ul id="results-list" class="results-list" aria-label="Результаты поиска"></ul>
+      </div>
+
+      <div class="detail-pane">
+        <article id="detail" class="detail" aria-live="polite">
+          <p class="detail-placeholder">Выберите слово из списка слева.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Блок «О словаре» — заполняется из meta словаря -->
+    <section id="about" class="about" aria-label="О словаре"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Учебный проект · веб-словарь ишкашимского языка · 2026</p>
+    </div>
+  </footer>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>

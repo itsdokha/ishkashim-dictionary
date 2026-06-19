@@ -1,0 +1,4660 @@
+{
+  "meta": {
+    "language": "ишкашимский язык",
+    "language_en": "Ishkashimi",
+    "iso639_3": "isk",
+    "glottolog": "ishk1244",
+    "script": "латинская научная транскрипция (по Грирсону), с вариантами",
+    "version": "1.0",
+    "entry_count": 159,
+    "description": "Учебный двуязычный (ишкашимско-русский) словарь-прототип. Данные собраны из научных источников по ишкашимскому языку.",
+    "pos_legend": {
+      "noun": {
+        "short": "сущ.",
+        "full": "существительное"
+      },
+      "verb": {
+        "short": "гл.",
+        "full": "глагол"
+      },
+      "adj": {
+        "short": "прил.",
+        "full": "прилагательное"
+      },
+      "adv": {
+        "short": "нареч.",
+        "full": "наречие"
+      },
+      "num": {
+        "short": "числ.",
+        "full": "числительное"
+      },
+      "pron": {
+        "short": "мест.",
+        "full": "местоимение"
+      },
+      "prep": {
+        "short": "предл.",
+        "full": "предлог"
+      },
+      "postp": {
+        "short": "послел.",
+        "full": "послелог"
+      },
+      "conj": {
+        "short": "союз",
+        "full": "союз"
+      },
+      "part": {
+        "short": "част.",
+        "full": "частица"
+      },
+      "interj": {
+        "short": "межд.",
+        "full": "междометие"
+      }
+    },
+    "field_legend": {
+      "id": "стабильный уникальный ключ статьи",
+      "lemma": "заголовочное слово (научная латинская транскрипция)",
+      "lemma_lat": "упрощённая ASCII-латиница без диакритики (для поиска)",
+      "lemma_cyr": "приблизительная кириллица (вспомогательная, не орфография)",
+      "pos": "код части речи (для фильтра)",
+      "pos_ru": "краткая помета части речи (для показа)",
+      "pos_full": "полное название части речи",
+      "domain": "тематическая группа",
+      "translations_ru": "русские переводы (список)",
+      "translations_en": "английские переводы (список)",
+      "variants": "варианты написания / диалектные формы (список)",
+      "examples": "примеры: список объектов {isk, ru}",
+      "etymology": "происхождение / этимология",
+      "comment": "лингвистический комментарий, диалектные пометы",
+      "sources": "источники данных (список)"
+    },
+    "sources": [
+      "G. A. Grierson. Ishkashmi, Zebaki and Yazghulami. London: Royal Asiatic Society, 1920.",
+      "Т. Н. Пахалина. Ишкашимский язык. Очерк фонетики и грамматики, тексты и словарь. М.: Изд-во АН СССР, 1959."
+    ],
+    "note": "Прототип для учебного проекта. Транскрипция упрощена и унифицирована; у ишкашимского языка нет общепринятой письменности."
+  },
+  "entries": [
+    {
+      "id": "isk_0001",
+      "lemma": "ādam",
+      "lemma_lat": "adam",
+      "lemma_cyr": "адам",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "человек"
+      ],
+      "translations_en": [
+        "man",
+        "person"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Wak ādam frī, wak šak.",
+          "ru": "Один человек добрый, другой злой."
+        }
+      ],
+      "etymology": "Из араб.-перс. ādam.",
+      "comment": "Заимствование (через таджикский).",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0002",
+      "lemma": "tāt",
+      "lemma_lat": "tat",
+      "lemma_cyr": "тат",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "отец"
+      ],
+      "translations_en": [
+        "father"
+      ],
+      "variants": [
+        "tot",
+        "tā"
+      ],
+      "examples": [
+        {
+          "isk": "Tu-t tāt, az zus.",
+          "ru": "Ты — (мой) отец, я — (твой) сын."
+        }
+      ],
+      "etymology": "Общеиранское «детское» слово; ср. тадж. дада.",
+      "comment": "Пахалина: to(t); забак., сангл. tā(t). Конечный согласный часто отпадает.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0003",
+      "lemma": "nan",
+      "lemma_lat": "nan",
+      "lemma_cyr": "нан",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "мать"
+      ],
+      "translations_en": [
+        "mother"
+      ],
+      "variants": [
+        "non"
+      ],
+      "examples": [
+        {
+          "isk": "Az-im dilgīr-i χi tāt, nan, vru šudúk.",
+          "ru": "Я соскучился по своему отцу, матери, брату."
+        }
+      ],
+      "etymology": "Общеиранское «детское» слово.",
+      "comment": "Ваханск. nān.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0004",
+      "lemma": "vrūd",
+      "lemma_lat": "vrud",
+      "lemma_cyr": "вруд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "брат"
+      ],
+      "translations_en": [
+        "brother"
+      ],
+      "variants": [
+        "vru",
+        "warūd"
+      ],
+      "examples": [],
+      "etymology": "Авест. brātar-; ср. тадж. бародар.",
+      "comment": "Забак. warūd — с гласной-вставкой (сварабхакти). Мн. ч. vrudárən.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0005",
+      "lemma": "iχā",
+      "lemma_lat": "ikha",
+      "lemma_cyr": "иха",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "сестра"
+      ],
+      "translations_en": [
+        "sister"
+      ],
+      "variants": [
+        "iχó"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. χūi, шугн. yax. Пахалина: i-χā.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0006",
+      "lemma": "zas",
+      "lemma_lat": "zas",
+      "lemma_cyr": "зас",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "сын"
+      ],
+      "translations_en": [
+        "son"
+      ],
+      "variants": [
+        "zus",
+        "zuk",
+        "zāt"
+      ],
+      "examples": [
+        {
+          "isk": "Az zus.",
+          "ru": "Я — (твой) сын."
+        }
+      ],
+      "etymology": "Корень иран. *zan- «рождать»; ср. авест. zan-.",
+      "comment": "Забак. zāt. Пахалина приводит также zuk.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0007",
+      "lemma": "wuδōyd",
+      "lemma_lat": "wudhoyd",
+      "lemma_cyr": "вудойд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "дочь"
+      ],
+      "translations_en": [
+        "daughter"
+      ],
+      "variants": [
+        "uδōyd",
+        "wuδåd"
+      ],
+      "examples": [],
+      "etymology": "Авест. duγδar-; ср. тадж. духтар.",
+      "comment": "Протетическое w-/u-. Пахалина: wuδåd, мн. ч. wuδъ́tdár.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0008",
+      "lemma": "zānǰ",
+      "lemma_lat": "zanj",
+      "lemma_cyr": "зандж",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "жена",
+        "женщина"
+      ],
+      "translations_en": [
+        "wife"
+      ],
+      "variants": [
+        "zofinǰ",
+        "wuǰinǰåk"
+      ],
+      "examples": [],
+      "etymology": "Авест. jaini- «женщина, жена».",
+      "comment": "Пахалина: zofinǰ «женщина», мн. ч. zonǰizēn; забак. wuǰinǰåk.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0009",
+      "lemma": "vuts",
+      "lemma_lat": "vuts",
+      "lemma_cyr": "вуц",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "дядя (брат отца)"
+      ],
+      "translations_en": [
+        "paternal uncle"
+      ],
+      "variants": [
+        "vuc"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0010",
+      "lemma": "zomān",
+      "lemma_lat": "zoman",
+      "lemma_cyr": "зоман",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "мальчик",
+        "юноша",
+        "парень"
+      ],
+      "translations_en": [
+        "boy",
+        "youth"
+      ],
+      "variants": [
+        "zāman"
+      ],
+      "examples": [
+        {
+          "isk": "Am zomān fay tāzu.",
+          "ru": "Этот юноша очень молод."
+        }
+      ],
+      "etymology": "",
+      "comment": "Сангл. zōmān; забак. zāman «дитя».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0011",
+      "lemma": "pādšā",
+      "lemma_lat": "padsha",
+      "lemma_cyr": "падша",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "царь",
+        "падишах"
+      ],
+      "translations_en": [
+        "king"
+      ],
+      "variants": [
+        "pā́dšā"
+      ],
+      "examples": [
+        {
+          "isk": "Pādšā χē wazīr-āw gul kul.",
+          "ru": "Царь собрал своих визирей."
+        }
+      ],
+      "etymology": "Перс. pādšāh.",
+      "comment": "Заимствование. Genitive: pādšā χān «царский дом».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0012",
+      "lemma": "wazīr",
+      "lemma_lat": "wazir",
+      "lemma_cyr": "вазир",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "визирь",
+        "министр"
+      ],
+      "translations_en": [
+        "vizier"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Араб. wazīr.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0013",
+      "lemma": "dehqān",
+      "lemma_lat": "dehqan",
+      "lemma_cyr": "дехкан",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "дехканин",
+        "крестьянин",
+        "земледелец"
+      ],
+      "translations_en": [
+        "peasant",
+        "cultivator"
+      ],
+      "variants": [
+        "dekkón",
+        "dequn"
+      ],
+      "examples": [],
+      "etymology": "Перс. dehqān.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0014",
+      "lemma": "sur",
+      "lemma_lat": "sur",
+      "lemma_cyr": "сур",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "голова"
+      ],
+      "translations_en": [
+        "head"
+      ],
+      "variants": [
+        "sār",
+        "sar"
+      ],
+      "examples": [
+        {
+          "isk": "Ts'-χē sār wak tsām kif.",
+          "ru": "Из своей головы вырви один глаз."
+        }
+      ],
+      "etymology": "Перс. sar.",
+      "comment": "Вах. sar.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0015",
+      "lemma": "tsām",
+      "lemma_lat": "tsam",
+      "lemma_cyr": "цам",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "глаз"
+      ],
+      "translations_en": [
+        "eye"
+      ],
+      "variants": [
+        "čъm"
+      ],
+      "examples": [
+        {
+          "isk": "Tu χē tsām kūr kun.",
+          "ru": "Сделай свой (собственный) глаз слепым."
+        }
+      ],
+      "etymology": "Авест. čašman-; ср. тадж. чашм.",
+      "comment": "Группа -šm- > -m-. Неодушевл. мн. ч. согласуется с глаголом в ед. ч.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0016",
+      "lemma": "nits",
+      "lemma_lat": "nits",
+      "lemma_cyr": "ниц",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "нос"
+      ],
+      "translations_en": [
+        "nose"
+      ],
+      "variants": [
+        "nīts"
+      ],
+      "examples": [],
+      "etymology": "Ср. др.-инд. nāsā, nasta- «нос».",
+      "comment": "Забак. nīts.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0017",
+      "lemma": "γōl",
+      "lemma_lat": "ghol",
+      "lemma_cyr": "гол",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "ухо"
+      ],
+      "translations_en": [
+        "ear"
+      ],
+      "variants": [
+        "γāl"
+      ],
+      "examples": [],
+      "etymology": "Авест. gaoša-; ср. тадж. гӯш.",
+      "comment": "Начальный g- > γ-; -š- > -l-. Забак. γāl.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0018",
+      "lemma": "dānd",
+      "lemma_lat": "dand",
+      "lemma_cyr": "данд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "зуб"
+      ],
+      "translations_en": [
+        "tooth"
+      ],
+      "variants": [
+        "dåndъk",
+        "dond"
+      ],
+      "examples": [],
+      "etymology": "Авест. dantan-; ср. тадж. дандон.",
+      "comment": "Забак. dåndъk (с суффиксом -ak).",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0019",
+      "lemma": "vin",
+      "lemma_lat": "vin",
+      "lemma_cyr": "вин",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "борода"
+      ],
+      "translations_en": [
+        "beard"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. reγiš.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0020",
+      "lemma": "dust",
+      "lemma_lat": "dust",
+      "lemma_cyr": "дуст",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "рука"
+      ],
+      "translations_en": [
+        "hand"
+      ],
+      "variants": [
+        "dūst",
+        "dåst"
+      ],
+      "examples": [
+        {
+          "isk": "Azí χi dust-i ʒūd awqót, pъ uk dust-i digar vek.",
+          "ru": "В одну руку она взяла кушанье, а в другую — воду."
+        }
+      ],
+      "etymology": "Др.-перс. dasta-; ср. тадж. даст.",
+      "comment": "Забак. dåst. Слово dust также значит «подруга» (перс. dōst).",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0021",
+      "lemma": "pūd",
+      "lemma_lat": "pud",
+      "lemma_cyr": "пуд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "нога",
+        "ступня"
+      ],
+      "translations_en": [
+        "foot"
+      ],
+      "variants": [
+        "pu"
+      ],
+      "examples": [
+        {
+          "isk": "Ti pūd χub daw kŭlúk-a!",
+          "ru": "Хорошенько вытяни свои ноги!"
+        }
+      ],
+      "etymology": "Авест. pāδa-; ср. тадж. по(й).",
+      "comment": "Собственно ишкашимская форма pu — с отпадением конечного согласного; забак. pūd.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0022",
+      "lemma": "dēr",
+      "lemma_lat": "der",
+      "lemma_cyr": "дер",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "живот"
+      ],
+      "translations_en": [
+        "belly",
+        "stomach"
+      ],
+      "variants": [
+        "der"
+      ],
+      "examples": [
+        {
+          "isk": "I dēr žūnduk šud.",
+          "ru": "Его живот проголодался."
+        }
+      ],
+      "etymology": "",
+      "comment": "Забак. der.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0023",
+      "lemma": "avzuk",
+      "lemma_lat": "avzuk",
+      "lemma_cyr": "авзук",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "сердце"
+      ],
+      "translations_en": [
+        "heart"
+      ],
+      "variants": [
+        "duzak",
+        "auzen"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Не связано с авест. zərəd- «сердце». Пахалина: duzak/auzen.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0024",
+      "lemma": "wēn",
+      "lemma_lat": "wen",
+      "lemma_cyr": "вен",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "кровь"
+      ],
+      "translations_en": [
+        "blood"
+      ],
+      "variants": [
+        "wen"
+      ],
+      "examples": [],
+      "etymology": "Авест. vohuni-; ср. тадж. хун.",
+      "comment": "Сангл. vain.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0025",
+      "lemma": "wastuk",
+      "lemma_lat": "wastuk",
+      "lemma_cyr": "вастук",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "кость",
+        "косточка (в плодах)"
+      ],
+      "translations_en": [
+        "bone"
+      ],
+      "variants": [
+        "wůstъk",
+        "wåstuk"
+      ],
+      "examples": [],
+      "etymology": "Авест. ast-; ср. тадж. устухон.",
+      "comment": "Протетическое w-; суффикс -uk. Юдг. yestoh — с протезой y-.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0026",
+      "lemma": "zung",
+      "lemma_lat": "zung",
+      "lemma_cyr": "зунг",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "колено"
+      ],
+      "translations_en": [
+        "knee"
+      ],
+      "variants": [
+        "žъng"
+      ],
+      "examples": [],
+      "etymology": "Ср. тадж. зону.",
+      "comment": "Вах. brin.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0027",
+      "lemma": "zivuk",
+      "lemma_lat": "zivuk",
+      "lemma_cyr": "зивук",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "язык",
+        "речь"
+      ],
+      "translations_en": [
+        "tongue"
+      ],
+      "variants": [
+        "zēvuk",
+        "zъvúk"
+      ],
+      "examples": [],
+      "etymology": "Ср. тадж. забон.",
+      "comment": "Вах. zik.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0028",
+      "lemma": "vrits",
+      "lemma_lat": "vrits",
+      "lemma_cyr": "вриц",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "бровь"
+      ],
+      "translations_en": [
+        "eyebrow"
+      ],
+      "variants": [
+        "vric"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0029",
+      "lemma": "suvd",
+      "lemma_lat": "suvd",
+      "lemma_cyr": "сувд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "плечо"
+      ],
+      "translations_en": [
+        "shoulder"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. supti-.",
+      "comment": "Группа ft > vd.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0030",
+      "lemma": "alōša",
+      "lemma_lat": "alosha",
+      "lemma_cyr": "алоша",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "подбородок",
+        "челюсть"
+      ],
+      "translations_en": [
+        "jaw",
+        "chin"
+      ],
+      "variants": [
+        "alåša",
+        "alaχ̌šå"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. zanāχ.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0031",
+      "lemma": "kud",
+      "lemma_lat": "kud",
+      "lemma_cyr": "куд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "собака"
+      ],
+      "translations_en": [
+        "dog"
+      ],
+      "variants": [
+        "ked"
+      ],
+      "examples": [
+        {
+          "isk": "Wak kud āγad.",
+          "ru": "Пришла (одна) собака."
+        }
+      ],
+      "etymology": "",
+      "comment": "Забак. ked; вах. šac.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0032",
+      "lemma": "vuz",
+      "lemma_lat": "vuz",
+      "lemma_cyr": "вуз",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "коза"
+      ],
+      "translations_en": [
+        "goat"
+      ],
+      "variants": [
+        "wuz"
+      ],
+      "examples": [
+        {
+          "isk": "Wa vuz-i zōγd āγad.",
+          "ru": "Он взял козу и пришёл."
+        }
+      ],
+      "etymology": "Авест. buza-; ср. тадж. буз.",
+      "comment": "Начальный b- > v-. Забак. wuz.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0033",
+      "lemma": "γū",
+      "lemma_lat": "ghu",
+      "lemma_cyr": "гу",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "корова"
+      ],
+      "translations_en": [
+        "cow"
+      ],
+      "variants": [
+        "γūi"
+      ],
+      "examples": [],
+      "etymology": "Авест. gav-; ср. тадж. гов.",
+      "comment": "Забак. γūi.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0034",
+      "lemma": "wrok",
+      "lemma_lat": "wrok",
+      "lemma_cyr": "врок",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "конь",
+        "лошадь"
+      ],
+      "translations_en": [
+        "horse"
+      ],
+      "variants": [
+        "vrūk",
+        "verák"
+      ],
+      "examples": [],
+      "etymology": "Возможно, к авест. aurvant- «быстрый».",
+      "comment": "Забак. verák — с гласной-вставкой. Пахалина: vrūk.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0035",
+      "lemma": "urk",
+      "lemma_lat": "urk",
+      "lemma_cyr": "урк",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "волк"
+      ],
+      "translations_en": [
+        "wolf"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. vəhrka-, др.-инд. vŕ̥ka-; ср. тадж. гург.",
+      "comment": "Сохранён древний согласный k после r. Вах. šapt; юдг. wurγ.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0036",
+      "lemma": "χurs",
+      "lemma_lat": "khurs",
+      "lemma_cyr": "хурс",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "медведь"
+      ],
+      "translations_en": [
+        "bear"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Χurs tsa urwēs frut.",
+          "ru": "Медведь спросил у лисы."
+        }
+      ],
+      "etymology": "Заимств. из перс. χirs.",
+      "comment": "Вах. nāγordum.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0037",
+      "lemma": "urwēs",
+      "lemma_lat": "urwes",
+      "lemma_cyr": "урвес",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "лиса",
+        "лисица"
+      ],
+      "translations_en": [
+        "fox"
+      ],
+      "variants": [
+        "urwēsak"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. naχčīr.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0038",
+      "lemma": "voks",
+      "lemma_lat": "voks",
+      "lemma_cyr": "вокс",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "змея"
+      ],
+      "translations_en": [
+        "snake",
+        "serpent"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Шугн. *devusk.",
+      "comment": "Вах. fuks.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0039",
+      "lemma": "wārūk",
+      "lemma_lat": "waruk",
+      "lemma_cyr": "варук",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "ягнёнок"
+      ],
+      "translations_en": [
+        "lamb"
+      ],
+      "variants": [
+        "wůrúk",
+        "werák"
+      ],
+      "examples": [],
+      "etymology": "Др.-инд. uraṇa- «ягнёнок».",
+      "comment": "Пахалина: wůrúk «барашек», werák «ярочка».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0040",
+      "lemma": "χūg",
+      "lemma_lat": "khug",
+      "lemma_cyr": "хуг",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "свинья",
+        "кабан"
+      ],
+      "translations_en": [
+        "pig"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. hu-; ср. тадж. хук.",
+      "comment": "Возможно, заимств. из перс. χūk.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0041",
+      "lemma": "kuwid",
+      "lemma_lat": "kuwid",
+      "lemma_cyr": "кувид",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "голубь"
+      ],
+      "translations_en": [
+        "pigeon",
+        "dove"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Др.-инд. kapota-.",
+      "comment": "Медиальное p > w. Вах. kibit.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0042",
+      "lemma": "pis",
+      "lemma_lat": "pis",
+      "lemma_cyr": "пис",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "кошка"
+      ],
+      "translations_en": [
+        "cat"
+      ],
+      "variants": [
+        "puš"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Забак., вах. piš.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0043",
+      "lemma": "mēl",
+      "lemma_lat": "mel",
+      "lemma_cyr": "мел",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "овца",
+        "баран"
+      ],
+      "translations_en": [
+        "sheep"
+      ],
+      "variants": [
+        "mei"
+      ],
+      "examples": [],
+      "etymology": "Авест. maēša-.",
+      "comment": "Вах. māi «овца».",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0044",
+      "lemma": "χūr",
+      "lemma_lat": "khur",
+      "lemma_cyr": "хур",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "осёл"
+      ],
+      "translations_en": [
+        "ass",
+        "donkey"
+      ],
+      "variants": [
+        "χur"
+      ],
+      "examples": [],
+      "etymology": "Авест. χara-; ср. тадж. хар.",
+      "comment": "Забак. χūr.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0045",
+      "lemma": "parinda",
+      "lemma_lat": "parinda",
+      "lemma_cyr": "паринда",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "птица"
+      ],
+      "translations_en": [
+        "bird"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Перс. parinda.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0046",
+      "lemma": "rēmuz",
+      "lemma_lat": "remuz",
+      "lemma_cyr": "ремуз",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "солнце"
+      ],
+      "translations_en": [
+        "sun"
+      ],
+      "variants": [
+        "ōrmozd"
+      ],
+      "examples": [],
+      "etymology": "Восходит к др.-перс. ahuramazdāh- «Ахура-Мазда».",
+      "comment": "Замечательное слово: забак. ōrmozd почти буквально сохраняет имя Ахура-Мазды. Произошло отождествление солнца с верховным божеством зороастризма.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0047",
+      "lemma": "mā",
+      "lemma_lat": "ma",
+      "lemma_cyr": "ма",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "луна",
+        "месяц"
+      ],
+      "translations_en": [
+        "moon"
+      ],
+      "variants": [
+        "māst"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Язгул. māst; ср. язгул. miθ «день» < авест. miθra-.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0048",
+      "lemma": "rōz",
+      "lemma_lat": "roz",
+      "lemma_cyr": "роз",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "день"
+      ],
+      "translations_en": [
+        "day"
+      ],
+      "variants": [
+        "mī"
+      ],
+      "examples": [
+        {
+          "isk": "Wak roz tā vužēr nulust.",
+          "ru": "Один день до вечера он сидел."
+        }
+      ],
+      "etymology": "Ср. тадж. рӯз.",
+      "comment": "Язгул. miθ < авест. miθra-. Пахалина приводит также mī «день».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0049",
+      "lemma": "šab",
+      "lemma_lat": "shab",
+      "lemma_cyr": "шаб",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "ночь"
+      ],
+      "translations_en": [
+        "night"
+      ],
+      "variants": [
+        "šåb"
+      ],
+      "examples": [
+        {
+          "isk": "Šab šud.",
+          "ru": "Настала ночь."
+        }
+      ],
+      "etymology": "Авест. χšap-; ср. тадж. шаб.",
+      "comment": "",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0050",
+      "lemma": "wek",
+      "lemma_lat": "wek",
+      "lemma_cyr": "век",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "вода"
+      ],
+      "translations_en": [
+        "water"
+      ],
+      "variants": [
+        "vek"
+      ],
+      "examples": [
+        {
+          "isk": "Vek mъm-bo īžъm!",
+          "ru": "Принеси мне воды!"
+        }
+      ],
+      "etymology": "Ср. вах. yupk, мундж. yāoγa.",
+      "comment": "Протетическое w-/v-. Забак. wē — с отпадением конечного -k.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0051",
+      "lemma": "rōšnī",
+      "lemma_lat": "roshni",
+      "lemma_cyr": "рошни",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "огонь"
+      ],
+      "translations_en": [
+        "fire"
+      ],
+      "variants": [
+        "rošni"
+      ],
+      "examples": [],
+      "etymology": "Ср. перс. rōšан «свет».",
+      "comment": "Язгул. yēts; вах. raχnīg.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0052",
+      "lemma": "varf",
+      "lemma_lat": "varf",
+      "lemma_cyr": "варф",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "снег"
+      ],
+      "translations_en": [
+        "snow"
+      ],
+      "variants": [
+        "warf"
+      ],
+      "examples": [],
+      "etymology": "Авест. vafra-; ср. тадж. барф.",
+      "comment": "Метатеза (vafra > varf). Рош. žiniž.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0053",
+      "lemma": "ur-naduk",
+      "lemma_lat": "ur-naduk",
+      "lemma_cyr": "ур-надук",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "дождь"
+      ],
+      "translations_en": [
+        "rain"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. vār-.",
+      "comment": "Вах. vūr.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0054",
+      "lemma": "struk",
+      "lemma_lat": "struk",
+      "lemma_cyr": "струк",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "звезда"
+      ],
+      "translations_en": [
+        "star"
+      ],
+      "variants": [
+        "stardk",
+        "sitāra"
+      ],
+      "examples": [],
+      "etymology": "Ср. тадж. ситора.",
+      "comment": "Язгул. stardk. Пахалина приводит также заимств. sitāra.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0055",
+      "lemma": "sung",
+      "lemma_lat": "sung",
+      "lemma_cyr": "сунг",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "камень",
+        "скала"
+      ],
+      "translations_en": [
+        "stone",
+        "rock"
+      ],
+      "variants": [
+        "γrtsōk"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. γār; язгул. γrtsōk.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0056",
+      "lemma": "daraχt",
+      "lemma_lat": "darakht",
+      "lemma_cyr": "дарахт",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "дерево (растущее)"
+      ],
+      "translations_en": [
+        "tree"
+      ],
+      "variants": [
+        "draχt"
+      ],
+      "examples": [],
+      "etymology": "Перс. daraχt.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0057",
+      "lemma": "durk",
+      "lemma_lat": "durk",
+      "lemma_cyr": "дурк",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "дерево (срубленное)",
+        "палка",
+        "шест"
+      ],
+      "translations_en": [
+        "wood",
+        "stick"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. šung «дрова».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0058",
+      "lemma": "wraza",
+      "lemma_lat": "wraza",
+      "lemma_cyr": "враза",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "горная вершина",
+        "высота"
+      ],
+      "translations_en": [
+        "mountain height"
+      ],
+      "variants": [
+        "vrāzā"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. vorz.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0059",
+      "lemma": "γār",
+      "lemma_lat": "ghar",
+      "lemma_cyr": "гар",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "пещера"
+      ],
+      "translations_en": [
+        "cave"
+      ],
+      "variants": [
+        "ambi"
+      ],
+      "examples": [
+        {
+          "isk": "Po wa ambi darūn wak χurǰīn durr åst.",
+          "ru": "Внутри той пещеры есть мешок жемчуга."
+        }
+      ],
+      "etymology": "",
+      "comment": "В сказке употребляется также ambi «пещера».",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0060",
+      "lemma": "χān",
+      "lemma_lat": "khan",
+      "lemma_cyr": "хан",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "дом"
+      ],
+      "translations_en": [
+        "house"
+      ],
+      "variants": [
+        "χon",
+        "χā"
+      ],
+      "examples": [
+        {
+          "isk": "Az-im nēr tar pādšā χān šud.",
+          "ru": "Сегодня я пошёл в царский дом."
+        }
+      ],
+      "etymology": "Ср. тадж. хона.",
+      "comment": "Пахалина: χon; забак. χā — с отпадением конечного -n.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0061",
+      "lemma": "var",
+      "lemma_lat": "var",
+      "lemma_cyr": "вар",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "дверь"
+      ],
+      "translations_en": [
+        "door"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Var vond za, paša na-átiyu!",
+          "ru": "Закрой дверь, чтобы мухи не влетали!"
+        }
+      ],
+      "etymology": "",
+      "comment": "Сангл. vā. tsa var «изнутри, из дома».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0062",
+      "lemma": "gāla",
+      "lemma_lat": "gala",
+      "lemma_cyr": "гала",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "еда",
+      "translations_ru": [
+        "хлеб",
+        "лепёшка"
+      ],
+      "translations_en": [
+        "bread"
+      ],
+      "variants": [
+        "golá"
+      ],
+      "examples": [
+        {
+          "isk": "Wak lav gāla mum-bā dai.",
+          "ru": "Дай мне кусок хлеба."
+        }
+      ],
+      "etymology": "",
+      "comment": "Вах. χoc; сангл. χēsta. Пахалина: golá.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0063",
+      "lemma": "kel",
+      "lemma_lat": "kel",
+      "lemma_cyr": "кел",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "нож"
+      ],
+      "translations_en": [
+        "knife"
+      ],
+      "variants": [
+        "kōž"
+      ],
+      "examples": [],
+      "etymology": "Авест. karəta-; ср. тадж. корд.",
+      "comment": "Вах. kōž.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0064",
+      "lemma": "kūl",
+      "lemma_lat": "kul",
+      "lemma_cyr": "кул",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "пруд",
+        "водоём",
+        "лужа"
+      ],
+      "translations_en": [
+        "pool"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Pī bun wak kūl åst.",
+          "ru": "Под ним есть пруд."
+        }
+      ],
+      "etymology": "Тюрк. köl «озеро».",
+      "comment": "",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0065",
+      "lemma": "tilā",
+      "lemma_lat": "tila",
+      "lemma_cyr": "тила",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "золото"
+      ],
+      "translations_en": [
+        "gold"
+      ],
+      "variants": [
+        "tillo",
+        "tila"
+      ],
+      "examples": [],
+      "etymology": "Перс. tillā.",
+      "comment": "Заимствование; забак. tila.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0066",
+      "lemma": "durr",
+      "lemma_lat": "durr",
+      "lemma_cyr": "дурр",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "жемчуг"
+      ],
+      "translations_en": [
+        "pearl"
+      ],
+      "variants": [
+        "dъr"
+      ],
+      "examples": [
+        {
+          "isk": "Durr χurǰīn gul tu-bā.",
+          "ru": "Мешок жемчуга — весь тебе."
+        }
+      ],
+      "etymology": "Араб. durr.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0067",
+      "lemma": "χurǰīn",
+      "lemma_lat": "khurjin",
+      "lemma_cyr": "хурджин",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "мешок",
+        "перемётная сума"
+      ],
+      "translations_en": [
+        "sack",
+        "saddle-bag"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Перс. χurǰīn.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0068",
+      "lemma": "wol",
+      "lemma_lat": "wol",
+      "lemma_cyr": "вол",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "шаровары",
+        "штаны"
+      ],
+      "translations_en": [
+        "trousers"
+      ],
+      "variants": [
+        "war"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Забак. wal, war.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0069",
+      "lemma": "wanǰī",
+      "lemma_lat": "wanji",
+      "lemma_cyr": "ванджи",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "халат",
+        "ватный халат"
+      ],
+      "translations_en": [
+        "robe",
+        "cloak"
+      ],
+      "variants": [
+        "vānǰi"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Сангл. vanǰin.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0070",
+      "lemma": "uspīr",
+      "lemma_lat": "uspir",
+      "lemma_cyr": "успир",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "плуг"
+      ],
+      "translations_en": [
+        "plough"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Др.-инд. *sphāla- «лемех»; ср. перс. supār.",
+      "comment": "Протетическое u-. Вах. spundar.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0071",
+      "lemma": "yōγ",
+      "lemma_lat": "yogh",
+      "lemma_cyr": "йог",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "ярмо"
+      ],
+      "translations_en": [
+        "yoke"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Др.-инд. yuga-; ср. тадж. юг.",
+      "comment": "Сохранён начальный y- (не перешёл в ǰ-).",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0072",
+      "lemma": "dumb",
+      "lemma_lat": "dumb",
+      "lemma_cyr": "думб",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "хвост"
+      ],
+      "translations_en": [
+        "tail"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Wi dumb-i nad.",
+          "ru": "Он схватил его (пса) за хвост."
+        }
+      ],
+      "etymology": "Авест. duma-; ср. тадж. дум.",
+      "comment": "",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0073",
+      "lemma": "taχt",
+      "lemma_lat": "takht",
+      "lemma_cyr": "тахт",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "трон",
+        "престол"
+      ],
+      "translations_en": [
+        "throne"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Tar taχt nīd.",
+          "ru": "Сядь на трон."
+        }
+      ],
+      "etymology": "Перс. taχt.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0074",
+      "lemma": "tablib",
+      "lemma_lat": "tablib",
+      "lemma_cyr": "таблиб",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "врач",
+        "лекарь"
+      ],
+      "translations_en": [
+        "physician"
+      ],
+      "variants": [
+        "tabīb"
+      ],
+      "examples": [
+        {
+          "isk": "Wak tabīb avīraw, ižmuw.",
+          "ru": "Найдите и приведите врача."
+        }
+      ],
+      "etymology": "Араб. ṭabīb.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0075",
+      "lemma": "frī",
+      "lemma_lat": "fri",
+      "lemma_cyr": "фри",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "хороший",
+        "добрый"
+      ],
+      "translations_en": [
+        "good"
+      ],
+      "variants": [
+        "ferī"
+      ],
+      "examples": [
+        {
+          "isk": "Frī χē tsām kift.",
+          "ru": "Добрый (человек) выколол свой глаз."
+        }
+      ],
+      "etymology": "",
+      "comment": "Вах. bāf; забак. ferī. Употр. также как имя героя сказки.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0076",
+      "lemma": "šak",
+      "lemma_lat": "shak",
+      "lemma_cyr": "шак",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "плохой",
+        "злой"
+      ],
+      "translations_en": [
+        "bad",
+        "wicked"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Šak mul.",
+          "ru": "Злой (человек) умер."
+        }
+      ],
+      "etymology": "",
+      "comment": "Вах. šak. В сказке — имя злого героя.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0077",
+      "lemma": "katta",
+      "lemma_lat": "katta",
+      "lemma_cyr": "катта",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "большой"
+      ],
+      "translations_en": [
+        "great",
+        "big"
+      ],
+      "variants": [
+        "kata"
+      ],
+      "examples": [],
+      "etymology": "Тюрк. katta.",
+      "comment": "Заимствование; вах. lup.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0078",
+      "lemma": "cutokok",
+      "lemma_lat": "chutokok",
+      "lemma_cyr": "чутокок",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "маленький"
+      ],
+      "translations_en": [
+        "little",
+        "small"
+      ],
+      "variants": [
+        "cut"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Забак. cut «маленький» (заимств. из инд.). Вах. dzaklāi.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0079",
+      "lemma": "nawuk",
+      "lemma_lat": "nawuk",
+      "lemma_cyr": "навук",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "новый"
+      ],
+      "translations_en": [
+        "new"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Ср. тадж. нав.",
+      "comment": "Вах. šöγd.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0080",
+      "lemma": "dīr",
+      "lemma_lat": "dir",
+      "lemma_cyr": "дир",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "далёкий",
+        "далеко"
+      ],
+      "translations_en": [
+        "far",
+        "distant"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. dūra-; ср. тадж. дур.",
+      "comment": "Забак. dīr; вах. δīr.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0081",
+      "lemma": "dъrōz",
+      "lemma_lat": "deroz",
+      "lemma_cyr": "дыроз",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "длинный"
+      ],
+      "translations_en": [
+        "long"
+      ],
+      "variants": [
+        "daroz"
+      ],
+      "examples": [],
+      "etymology": "Перс. darāz.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0082",
+      "lemma": "safēd",
+      "lemma_lat": "safed",
+      "lemma_cyr": "сафед",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "белый"
+      ],
+      "translations_en": [
+        "white"
+      ],
+      "variants": [
+        "surχūn"
+      ],
+      "examples": [],
+      "etymology": "Заимств. из перс. safēd.",
+      "comment": "Вах. ruχn. Пахалина приводит также surχūn.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0083",
+      "lemma": "šu",
+      "lemma_lat": "shu",
+      "lemma_cyr": "шу",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "чёрный"
+      ],
+      "translations_en": [
+        "black"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. syāva-; ср. тадж. сиёҳ.",
+      "comment": "Группа sy > š.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0084",
+      "lemma": "surχ",
+      "lemma_lat": "surkh",
+      "lemma_cyr": "сурх",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "красный"
+      ],
+      "translations_en": [
+        "red"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. suχra-; ср. тадж. сурх.",
+      "comment": "Юдг. surk-oh.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0085",
+      "lemma": "kabūt",
+      "lemma_lat": "kabut",
+      "lemma_cyr": "кабут",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "синий",
+        "голубой"
+      ],
+      "translations_en": [
+        "blue"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Tu māl darūn wak kabūt vuz åst.",
+          "ru": "Среди твоего скота есть синяя коза."
+        }
+      ],
+      "etymology": "Перс. kabūd.",
+      "comment": "Вах. sāvz.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0086",
+      "lemma": "sabz",
+      "lemma_lat": "sabz",
+      "lemma_cyr": "сабз",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "зелёный"
+      ],
+      "translations_en": [
+        "green"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Ambi sar-dzā wak sabz cenār åst.",
+          "ru": "Перед пещерой есть зелёный чинар (платан)."
+        }
+      ],
+      "etymology": "Перс. sabz.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0087",
+      "lemma": "sard",
+      "lemma_lat": "sard",
+      "lemma_cyr": "сард",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "холодный"
+      ],
+      "translations_en": [
+        "cold"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. sarəta-; ср. тадж. сард.",
+      "comment": "",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0088",
+      "lemma": "tāza",
+      "lemma_lat": "taza",
+      "lemma_cyr": "таза",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "свежий",
+        "новый"
+      ],
+      "translations_en": [
+        "fresh",
+        "renewed"
+      ],
+      "variants": [
+        "tažá"
+      ],
+      "examples": [
+        {
+          "isk": "I tsām tāza šu.",
+          "ru": "Его глаза станут как новые (исцелятся)."
+        }
+      ],
+      "etymology": "Перс. tāza.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0089",
+      "lemma": "kūr",
+      "lemma_lat": "kur",
+      "lemma_cyr": "кур",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "слепой"
+      ],
+      "translations_en": [
+        "blind"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Ar-wadak tsām kūr šud.",
+          "ru": "Оба глаза стали слепыми."
+        }
+      ],
+      "etymology": "Тюрк. kör.",
+      "comment": "",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0090",
+      "lemma": "wuzduk",
+      "lemma_lat": "wuzduk",
+      "lemma_cyr": "вуздук",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "высокий"
+      ],
+      "translations_en": [
+        "high"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Авест. bərəza-.",
+      "comment": "Вах. wūc «высокий».",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0091",
+      "lemma": "žūnduk",
+      "lemma_lat": "zhunduk",
+      "lemma_cyr": "жундук",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "голодный"
+      ],
+      "translations_en": [
+        "hungry"
+      ],
+      "variants": [
+        "žånduk",
+        "zánduk"
+      ],
+      "examples": [
+        {
+          "isk": "Wēv dēr žūnduk šud.",
+          "ru": "Их животы проголодались."
+        }
+      ],
+      "etymology": "",
+      "comment": "Вах. marz; забак. žandāki «голод».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0092",
+      "lemma": "wak",
+      "lemma_lat": "wak",
+      "lemma_cyr": "вак",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "один"
+      ],
+      "translations_en": [
+        "one"
+      ],
+      "variants": [
+        "wok",
+        "uk"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Употребляется также как неопределённый артикль «(один) некий». Ср. омоним wak «там» (нареч.).",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0093",
+      "lemma": "wak",
+      "lemma_lat": "wak",
+      "lemma_cyr": "вак",
+      "pos": "adv",
+      "pos_ru": "нареч.",
+      "pos_full": "наречие",
+      "domain": "служебные",
+      "translations_ru": [
+        "там",
+        "туда"
+      ],
+      "translations_en": [
+        "there"
+      ],
+      "variants": [
+        "wadak",
+        "wåk"
+      ],
+      "examples": [
+        {
+          "isk": "Tsa wadak χut, tōyd.",
+          "ru": "Оттуда он поднялся (и) пошёл."
+        }
+      ],
+      "etymology": "",
+      "comment": "Омоним числительного wak «один». tsa wadak / ts'-wadak «оттуда».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0094",
+      "lemma": "dau",
+      "lemma_lat": "dau",
+      "lemma_cyr": "дау",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "два"
+      ],
+      "translations_en": [
+        "two"
+      ],
+      "variants": [
+        "dō",
+        "dov"
+      ],
+      "examples": [
+        {
+          "isk": "Dō ādam-ān safar-ān šud.",
+          "ru": "Двое людей отправились в путь."
+        }
+      ],
+      "etymology": "Авест. dva-; ср. тадж. ду.",
+      "comment": "Язгул. δau.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0095",
+      "lemma": "rūi",
+      "lemma_lat": "rui",
+      "lemma_cyr": "руи",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "три"
+      ],
+      "translations_en": [
+        "three"
+      ],
+      "variants": [
+        "rāi",
+        "rā"
+      ],
+      "examples": [],
+      "etymology": "Авест. θrayō; ср. тадж. се.",
+      "comment": "Утрачен начальный θ- (θrāyō > rūi). Забак. rāi.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0096",
+      "lemma": "tsafur",
+      "lemma_lat": "tsafur",
+      "lemma_cyr": "цафур",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "четыре"
+      ],
+      "translations_en": [
+        "four"
+      ],
+      "variants": [
+        "tsafūr"
+      ],
+      "examples": [],
+      "etymology": "Авест. čaθwārō; ср. тадж. чор.",
+      "comment": "Забак. tsafūr; сангл. safōr.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0097",
+      "lemma": "punz",
+      "lemma_lat": "punz",
+      "lemma_cyr": "пунз",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "пять"
+      ],
+      "translations_en": [
+        "five"
+      ],
+      "variants": [
+        "pūnz"
+      ],
+      "examples": [],
+      "etymology": "Авест. panča; ср. тадж. панҷ.",
+      "comment": "Группа -nč- > -nz-. Забак. pūnz.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0098",
+      "lemma": "χol",
+      "lemma_lat": "khol",
+      "lemma_cyr": "хол",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "шесть"
+      ],
+      "translations_en": [
+        "six"
+      ],
+      "variants": [
+        "χāl"
+      ],
+      "examples": [],
+      "etymology": "Авест. χšvaš; ср. тадж. шаш.",
+      "comment": "Забак. χāl; язгул. χū.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0099",
+      "lemma": "uvd",
+      "lemma_lat": "uvd",
+      "lemma_cyr": "увд",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "семь"
+      ],
+      "translations_en": [
+        "seven"
+      ],
+      "variants": [
+        "aft"
+      ],
+      "examples": [],
+      "etymology": "Авест. hapta; ср. тадж. ҳафт.",
+      "comment": "Группа -pt- > -vd-; начальное h- отпало. Пахалина приводит также aft.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0100",
+      "lemma": "åt",
+      "lemma_lat": "at",
+      "lemma_cyr": "от",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "восемь"
+      ],
+      "translations_en": [
+        "eight"
+      ],
+      "variants": [
+        "ot"
+      ],
+      "examples": [],
+      "etymology": "Авест. ašta, др.-инд. aṣṭau; ср. тадж. ҳашт.",
+      "comment": "Церебральное ṭ указывает на индийское влияние. Забак. ot.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0101",
+      "lemma": "naw",
+      "lemma_lat": "naw",
+      "lemma_cyr": "нав",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "девять"
+      ],
+      "translations_en": [
+        "nine"
+      ],
+      "variants": [
+        "nao"
+      ],
+      "examples": [],
+      "etymology": "Ср. тадж. нӯҳ.",
+      "comment": "Язгул. nū.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0102",
+      "lemma": "dah",
+      "lemma_lat": "dah",
+      "lemma_cyr": "дах",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "десять"
+      ],
+      "translations_en": [
+        "ten"
+      ],
+      "variants": [
+        "dōs"
+      ],
+      "examples": [
+        {
+          "isk": "Nēr-bā dah roz tamuχ-bā qarār vud.",
+          "ru": "До сегодняшнего дня вам был дан срок в десять дней."
+        }
+      ],
+      "etymology": "Авест. dasa; ср. тадж. даҳ.",
+      "comment": "Собственно ишк. dah заимств. из перс.; исконная форма — забак. dōs.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0103",
+      "lemma": "sad",
+      "lemma_lat": "sad",
+      "lemma_cyr": "сад",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "сто"
+      ],
+      "translations_en": [
+        "hundred"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Перс. sad; ср. тадж. сад.",
+      "comment": "",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0104",
+      "lemma": "azār",
+      "lemma_lat": "azar",
+      "lemma_cyr": "азар",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "тысяча"
+      ],
+      "translations_en": [
+        "thousand"
+      ],
+      "variants": [
+        "azor"
+      ],
+      "examples": [],
+      "etymology": "Перс. hazār; ср. тадж. ҳазор.",
+      "comment": "Начальное h- отпало.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0105",
+      "lemma": "az",
+      "lemma_lat": "az",
+      "lemma_cyr": "аз",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "я"
+      ],
+      "translations_en": [
+        "I"
+      ],
+      "variants": [
+        "azъm"
+      ],
+      "examples": [
+        {
+          "isk": "Az tu-bā dayum.",
+          "ru": "Я тебе дам."
+        }
+      ],
+      "etymology": "Авест. azəm; ср. тадж. ман (иной корень).",
+      "comment": "Дат. mum-bā «мне», род. mun «мой».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0106",
+      "lemma": "tu",
+      "lemma_lat": "tu",
+      "lemma_cyr": "ту",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "ты"
+      ],
+      "translations_en": [
+        "thou",
+        "you (sg.)"
+      ],
+      "variants": [
+        "tъ"
+      ],
+      "examples": [
+        {
+          "isk": "Tu-t kum dzā vud?",
+          "ru": "Ты где был?"
+        }
+      ],
+      "etymology": "Авест. tū; ср. тадж. ту.",
+      "comment": "Дат. tu-bā «тебе», род. ti «твой», мн. tamuχ «вы».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0107",
+      "lemma": "wa",
+      "lemma_lat": "wa",
+      "lemma_cyr": "ва",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "он",
+        "она",
+        "оно",
+        "тот"
+      ],
+      "translations_en": [
+        "he",
+        "she",
+        "it",
+        "that"
+      ],
+      "variants": [
+        "āo",
+        "wō"
+      ],
+      "examples": [
+        {
+          "isk": "Wa cenār nad.",
+          "ru": "Он схватил чинар (платан)."
+        }
+      ],
+      "etymology": "",
+      "comment": "Указат. местоим. дальнего плана; одновременно личное мест. 3 л. Объектная форма wan, мн. wēv.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0108",
+      "lemma": "am",
+      "lemma_lat": "am",
+      "lemma_cyr": "ам",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "этот",
+        "эта",
+        "это"
+      ],
+      "translations_en": [
+        "this"
+      ],
+      "variants": [
+        "nakwa"
+      ],
+      "examples": [
+        {
+          "isk": "Am zomān fay tāzu.",
+          "ru": "Этот юноша очень молод."
+        }
+      ],
+      "etymology": "",
+      "comment": "Указат. местоим. ближнего плана. В сказке также nakwa «этот».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0109",
+      "lemma": "χē",
+      "lemma_lat": "khe",
+      "lemma_cyr": "хе",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "свой",
+        "своя",
+        "своё"
+      ],
+      "translations_en": [
+        "own"
+      ],
+      "variants": [
+        "χe"
+      ],
+      "examples": [
+        {
+          "isk": "Tu χē tsām kūr kun.",
+          "ru": "Сделай свой (собственный) глаз слепым."
+        }
+      ],
+      "etymology": "",
+      "comment": "Возвратно-притяжательное; относится к подлежащему. Вах./шугн. χu.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0110",
+      "lemma": "χadak",
+      "lemma_lat": "khadak",
+      "lemma_cyr": "хадак",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "сам"
+      ],
+      "translations_en": [
+        "self"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Az χadak χarum, nedum.",
+          "ru": "Я сам поем, сам сяду."
+        }
+      ],
+      "etymology": "",
+      "comment": "Суффикс -ak. Шугн. χu-baθ.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0111",
+      "lemma": "kudum",
+      "lemma_lat": "kudum",
+      "lemma_cyr": "кудум",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "кто",
+        "какой"
+      ],
+      "translations_en": [
+        "who"
+      ],
+      "variants": [
+        "kāi"
+      ],
+      "examples": [],
+      "etymology": "Древняя местоименная основа ka-.",
+      "comment": "Забак. kāi; вах. kūi.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0112",
+      "lemma": "ciz",
+      "lemma_lat": "chiz",
+      "lemma_cyr": "чиз",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "что",
+        "какой"
+      ],
+      "translations_en": [
+        "what"
+      ],
+      "variants": [
+        "kum"
+      ],
+      "examples": [
+        {
+          "isk": "Ciz talapi tu?",
+          "ru": "Чего ты просишь?"
+        }
+      ],
+      "etymology": "Ср. перс. čī, čīz.",
+      "comment": "kum dzā «где» (букв. «какое место»).",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0113",
+      "lemma": "vunuk",
+      "lemma_lat": "vunuk",
+      "lemma_cyr": "вунук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "быть",
+        "становиться"
+      ],
+      "translations_en": [
+        "to be",
+        "to become"
+      ],
+      "variants": [
+        "vun-",
+        "vud"
+      ],
+      "examples": [
+        {
+          "isk": "Az tъ-bo yor vúnъm.",
+          "ru": "Я буду тебе другом."
+        }
+      ],
+      "etymology": "Авест. √bū-; ср. тадж. будан.",
+      "comment": "Основы: наст. vun-, прош. vud. Прош. вр. «был» — vud.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0114",
+      "lemma": "kunuk",
+      "lemma_lat": "kunuk",
+      "lemma_cyr": "кунук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "делать",
+        "совершать"
+      ],
+      "translations_en": [
+        "to do",
+        "to make"
+      ],
+      "variants": [
+        "kъnък",
+        "kun-",
+        "kul"
+      ],
+      "examples": [
+        {
+          "isk": "Pādšā χē wazīr-āw gul kul.",
+          "ru": "Царь собрал своих визирей."
+        }
+      ],
+      "etymology": "Авест. √kar-; ср. тадж. кардан.",
+      "comment": "Основы: наст. kun-, прош. kul. Образует составные глаголы: gul kul «собрал», trās kul «испугался».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0115",
+      "lemma": "dayuk",
+      "lemma_lat": "dayuk",
+      "lemma_cyr": "дайук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "давать"
+      ],
+      "translations_en": [
+        "to give"
+      ],
+      "variants": [
+        "day-",
+        "dud"
+      ],
+      "examples": [
+        {
+          "isk": "Az tu-bā dayum.",
+          "ru": "Я тебе дам."
+        }
+      ],
+      "etymology": "Авест. √dā-; ср. тадж. додан.",
+      "comment": "Основы: наст. day-, прош. dud. para-day- «продавать».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0116",
+      "lemma": "χaruk",
+      "lemma_lat": "kharuk",
+      "lemma_cyr": "харук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "есть",
+        "кушать"
+      ],
+      "translations_en": [
+        "to eat"
+      ],
+      "variants": [
+        "χar-",
+        "χarum"
+      ],
+      "examples": [
+        {
+          "isk": "Az χadak χarum, nedum.",
+          "ru": "Я сам поем, сам сяду."
+        }
+      ],
+      "etymology": "Авест. √χvar-; ср. тадж. хӯрдан.",
+      "comment": "Основа наст. χar-. Любопытно: в язгул. χvar- дало χvōr «солнце».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0117",
+      "lemma": "suk",
+      "lemma_lat": "suk",
+      "lemma_cyr": "сук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "идти",
+        "становиться"
+      ],
+      "translations_en": [
+        "to go",
+        "to become"
+      ],
+      "variants": [
+        "su-",
+        "šud",
+        "som"
+      ],
+      "examples": [
+        {
+          "isk": "Cenār viš šud.",
+          "ru": "Он пошёл под чинар (платан)."
+        }
+      ],
+      "etymology": "Авест. √šu-; ср. тадж. шудан.",
+      "comment": "Основы: наст. su-/šu-, прош. šud. Как и тадж. шудан, значит и «идти», и «становиться».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0118",
+      "lemma": "wenuk",
+      "lemma_lat": "wenuk",
+      "lemma_cyr": "венук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "видеть"
+      ],
+      "translations_en": [
+        "to see"
+      ],
+      "variants": [
+        "wen-",
+        "wend",
+        "vīnum"
+      ],
+      "examples": [
+        {
+          "isk": "Tъ-t wan na-wendúk-o?",
+          "ru": "Ты его (её) не видела?"
+        }
+      ],
+      "etymology": "Авест. √vaen-.",
+      "comment": "Основы: наст. wen-, прош. wend. Забак. vīnum «(я) вижу».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0119",
+      "lemma": "γēžd",
+      "lemma_lat": "ghezhd",
+      "lemma_cyr": "гежд",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "говорить",
+        "сказать"
+      ],
+      "translations_en": [
+        "to say"
+      ],
+      "variants": [
+        "γēd"
+      ],
+      "examples": [
+        {
+          "isk": "Sak γēžd.",
+          "ru": "Злой (человек) сказал."
+        }
+      ],
+      "etymology": "Авест. √vač-.",
+      "comment": "Синкопа -ž-: забак. γēd. Прош. вр. (3 л.) «сказал».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0120",
+      "lemma": "zānzuk",
+      "lemma_lat": "zanzuk",
+      "lemma_cyr": "занзук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "брать",
+        "взять"
+      ],
+      "translations_en": [
+        "to take"
+      ],
+      "variants": [
+        "zānz",
+        "zōγd"
+      ],
+      "examples": [
+        {
+          "isk": "Wan zānz, mum-bā ižum.",
+          "ru": "Возьми это (и) принеси мне."
+        }
+      ],
+      "etymology": "",
+      "comment": "Основы: наст. zānz, прош. zōγd. zōγd āγad «взял (и) пришёл» = «принёс».",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0121",
+      "lemma": "zanuk",
+      "lemma_lat": "zanuk",
+      "lemma_cyr": "занук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "убивать",
+        "убить"
+      ],
+      "translations_en": [
+        "to kill"
+      ],
+      "variants": [
+        "zan-",
+        "zanum"
+      ],
+      "examples": [
+        {
+          "isk": "Nēr tamuχ zanum.",
+          "ru": "Сегодня я убью вас."
+        }
+      ],
+      "etymology": "Авест. √jan-; ср. тадж. задан.",
+      "comment": "Начальное ǰ- > z-. Основа наст. zan-.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0122",
+      "lemma": "āγad",
+      "lemma_lat": "aghad",
+      "lemma_cyr": "агад",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "приходить",
+        "прийти"
+      ],
+      "translations_en": [
+        "to come"
+      ],
+      "variants": [
+        "is-",
+        "isъm"
+      ],
+      "examples": [
+        {
+          "isk": "Wak kud āγad.",
+          "ru": "Пришла (одна) собака."
+        }
+      ],
+      "etymology": "",
+      "comment": "Прош. вр. (3 л.) «пришёл». Наст. основа is-: isъm «(я) прихожу».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0123",
+      "lemma": "nīduk",
+      "lemma_lat": "niduk",
+      "lemma_cyr": "нидук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "сидеть",
+        "сесть"
+      ],
+      "translations_en": [
+        "to sit"
+      ],
+      "variants": [
+        "nīd",
+        "nulust",
+        "nalāst"
+      ],
+      "examples": [
+        {
+          "isk": "Wak roz tā vužēr nulust.",
+          "ru": "Один день до вечера он сидел."
+        }
+      ],
+      "etymology": "Авест. √had- с приставкой ni-.",
+      "comment": "Основы: наст. nīd/ned-, прош. nulust; забак. nalāst.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0124",
+      "lemma": "dēk",
+      "lemma_lat": "dek",
+      "lemma_cyr": "дек",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "бить",
+        "ударять"
+      ],
+      "translations_en": [
+        "to strike",
+        "to beat"
+      ],
+      "variants": [
+        "de-",
+        "ded",
+        "dū"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Основы: наст. de-/dē-, прош. ded; стяжённая форма dūk. Образует составные глаголы: gap dēd «сказал».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0125",
+      "lemma": "vonduk",
+      "lemma_lat": "vonduk",
+      "lemma_cyr": "вондук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "вязать",
+        "связывать",
+        "закрывать"
+      ],
+      "translations_en": [
+        "to bind"
+      ],
+      "variants": [
+        "vond-",
+        "vūst",
+        "wånd"
+      ],
+      "examples": [
+        {
+          "isk": "Var vond za, paša na-átiyu!",
+          "ru": "Закрой дверь, чтобы мухи не влетали!"
+        }
+      ],
+      "etymology": "Авест. √band-; ср. тадж. бастан.",
+      "comment": "Основы: наст. vond-, прош. vūst. var vond «закрыл дверь».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0126",
+      "lemma": "wazuk",
+      "lemma_lat": "wazuk",
+      "lemma_cyr": "вазук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "падать"
+      ],
+      "translations_en": [
+        "to fall"
+      ],
+      "variants": [
+        "waz-",
+        "wat"
+      ],
+      "examples": [
+        {
+          "isk": "Kas za, ad galgī na-wázu!",
+          "ru": "Смотри, чтобы эта шкурка не упала!"
+        }
+      ],
+      "etymology": "",
+      "comment": "Основы: наст. waz-, прош. wat.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0127",
+      "lemma": "talapuk",
+      "lemma_lat": "talapuk",
+      "lemma_cyr": "талапук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "просить",
+        "требовать"
+      ],
+      "translations_en": [
+        "to demand",
+        "to ask"
+      ],
+      "variants": [
+        "talap-",
+        "tilapum"
+      ],
+      "examples": [
+        {
+          "isk": "Ciz talapi tu?",
+          "ru": "Чего ты просишь?"
+        }
+      ],
+      "etymology": "Араб.-перс. talab.",
+      "comment": "Основа наст. talap-.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0128",
+      "lemma": "muluk",
+      "lemma_lat": "muluk",
+      "lemma_cyr": "мулук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "умирать",
+        "умереть"
+      ],
+      "translations_en": [
+        "to die"
+      ],
+      "variants": [
+        "mul"
+      ],
+      "examples": [
+        {
+          "isk": "Šak mul.",
+          "ru": "Злой (человек) умер."
+        }
+      ],
+      "etymology": "Авест. mərəta-; ср. тадж. мурдан.",
+      "comment": "Группа -rt- > -l-. muluk «мёртвый, труп».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0129",
+      "lemma": "frut",
+      "lemma_lat": "frut",
+      "lemma_cyr": "фрут",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "спрашивать",
+        "спросить"
+      ],
+      "translations_en": [
+        "to ask",
+        "to inquire"
+      ],
+      "variants": [
+        "ferāt",
+        "pors-"
+      ],
+      "examples": [
+        {
+          "isk": "Χurs tsa urwēs frut.",
+          "ru": "Медведь спросил у лисы."
+        }
+      ],
+      "etymology": "Др.-инд. pr̥ṣṭa-; ср. тадж. пурсидан.",
+      "comment": "Забак. ferāt — с гласной-вставкой.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0130",
+      "lemma": "šuduk",
+      "lemma_lat": "shuduk",
+      "lemma_cyr": "шудук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "слышать",
+        "услышать"
+      ],
+      "translations_en": [
+        "to hear"
+      ],
+      "variants": [
+        "šud"
+      ],
+      "examples": [
+        {
+          "isk": "I gul gap-i šud.",
+          "ru": "Он услышал весь его разговор."
+        }
+      ],
+      "etymology": "Авест. sruta-; ср. тадж. шунидан.",
+      "comment": "Омонимично šud «пошёл; стал» — различаются по контексту.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0131",
+      "lemma": "kif",
+      "lemma_lat": "kif",
+      "lemma_cyr": "киф",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "колоть",
+        "вырывать (глаз)",
+        "протыкать"
+      ],
+      "translations_en": [
+        "to pierce"
+      ],
+      "variants": [
+        "kift"
+      ],
+      "examples": [
+        {
+          "isk": "Frī χē tsām kift.",
+          "ru": "Добрый (человек) выколол свой глаз."
+        }
+      ],
+      "etymology": "",
+      "comment": "Прош. основа kift. (повел. накл. kif «выколи»).",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0132",
+      "lemma": "izuk",
+      "lemma_lat": "izuk",
+      "lemma_cyr": "изук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "приносить",
+        "принести"
+      ],
+      "translations_en": [
+        "to bring"
+      ],
+      "variants": [
+        "ižum",
+        "izmuw"
+      ],
+      "examples": [
+        {
+          "isk": "Mum-bā ižum.",
+          "ru": "Принеси мне."
+        }
+      ],
+      "etymology": "",
+      "comment": "Повел. накл. ižum (ед.), ižmuw (мн.).",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0133",
+      "lemma": "nēr",
+      "lemma_lat": "ner",
+      "lemma_cyr": "нер",
+      "pos": "adv",
+      "pos_ru": "нареч.",
+      "pos_full": "наречие",
+      "domain": "время",
+      "translations_ru": [
+        "сегодня"
+      ],
+      "translations_en": [
+        "today"
+      ],
+      "variants": [
+        "ner",
+        "nur"
+      ],
+      "examples": [
+        {
+          "isk": "Nēr tamuχ zanum.",
+          "ru": "Сегодня я убью вас."
+        }
+      ],
+      "etymology": "Авест. nūrəm «теперь»; ср. тадж. нур (?).",
+      "comment": "Язгул. nur. nēr-bā «до сегодняшнего дня».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0134",
+      "lemma": "āluzd",
+      "lemma_lat": "aluzd",
+      "lemma_cyr": "алузд",
+      "pos": "adv",
+      "pos_ru": "нареч.",
+      "pos_full": "наречие",
+      "domain": "время",
+      "translations_ru": [
+        "завтра"
+      ],
+      "translations_en": [
+        "tomorrow"
+      ],
+      "variants": [
+        "afau"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. warok; язгул. afau.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0135",
+      "lemma": "pāruzd",
+      "lemma_lat": "paruzd",
+      "lemma_cyr": "парузд",
+      "pos": "adv",
+      "pos_ru": "нареч.",
+      "pos_full": "наречие",
+      "domain": "время",
+      "translations_ru": [
+        "вчера"
+      ],
+      "translations_en": [
+        "yesterday"
+      ],
+      "variants": [
+        "biyer"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. yaz; язгул. biyer.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0136",
+      "lemma": "vužēr",
+      "lemma_lat": "vuzher",
+      "lemma_cyr": "вужер",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "время",
+      "translations_ru": [
+        "вечер",
+        "вечером"
+      ],
+      "translations_en": [
+        "evening"
+      ],
+      "variants": [
+        "vajer",
+        "vjerí"
+      ],
+      "examples": [
+        {
+          "isk": "Zomān vjerí tsa škor isu.",
+          "ru": "Юноша вечером придёт с охоты."
+        }
+      ],
+      "etymology": "",
+      "comment": "Вах. pürz.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0137",
+      "lemma": "waχt",
+      "lemma_lat": "wakht",
+      "lemma_cyr": "вахт",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "время",
+      "translations_ru": [
+        "время"
+      ],
+      "translations_en": [
+        "time"
+      ],
+      "variants": [
+        "waqt"
+      ],
+      "examples": [
+        {
+          "isk": "Cand waχt šuχt.",
+          "ru": "Прошло некоторое время."
+        }
+      ],
+      "etymology": "Араб. waqt.",
+      "comment": "В заимствованных словах араб. q переходит в χ: waqt > waχt. waχt-i za «когда».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0138",
+      "lemma": "tobistōn",
+      "lemma_lat": "tobiston",
+      "lemma_cyr": "тобистон",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "время",
+      "translations_ru": [
+        "лето"
+      ],
+      "translations_en": [
+        "summer"
+      ],
+      "variants": [
+        "tāvestån"
+      ],
+      "examples": [],
+      "etymology": "Перс. tābistān.",
+      "comment": "Заимствование; сангл. tāvestån.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0139",
+      "lemma": "zimistōn",
+      "lemma_lat": "zimiston",
+      "lemma_cyr": "зимистон",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "время",
+      "translations_ru": [
+        "зима",
+        "зимой"
+      ],
+      "translations_en": [
+        "winter"
+      ],
+      "variants": [
+        "zamistōn"
+      ],
+      "examples": [],
+      "etymology": "Перс. zimistān.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0140",
+      "lemma": "tiramō",
+      "lemma_lat": "tiramo",
+      "lemma_cyr": "тирамо",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "время",
+      "translations_ru": [
+        "осень"
+      ],
+      "translations_en": [
+        "autumn"
+      ],
+      "variants": [
+        "tiramå"
+      ],
+      "examples": [],
+      "etymology": "Перс. tīrāmāh.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0141",
+      "lemma": "sahar",
+      "lemma_lat": "sahar",
+      "lemma_cyr": "сахар",
+      "pos": "adv",
+      "pos_ru": "нареч.",
+      "pos_full": "наречие",
+      "domain": "время",
+      "translations_ru": [
+        "на рассвете",
+        "утром"
+      ],
+      "translations_en": [
+        "at dawn"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Sahar tsa wadak χut.",
+          "ru": "На рассвете он поднялся оттуда."
+        }
+      ],
+      "etymology": "Араб. saḥar.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0142",
+      "lemma": "agar",
+      "lemma_lat": "agar",
+      "lemma_cyr": "агар",
+      "pos": "conj",
+      "pos_ru": "союз",
+      "pos_full": "союз",
+      "domain": "служебные",
+      "translations_ru": [
+        "если"
+      ],
+      "translations_en": [
+        "if"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Agar nakwa vuz avīrī, i tsām tāza šu.",
+          "ru": "Если он найдёт эту козу, её глаза исцелятся."
+        }
+      ],
+      "etymology": "Перс. agar.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0143",
+      "lemma": "za",
+      "lemma_lat": "za",
+      "lemma_cyr": "за",
+      "pos": "conj",
+      "pos_ru": "союз",
+      "pos_full": "союз",
+      "domain": "служебные",
+      "translations_ru": [
+        "и",
+        "а"
+      ],
+      "translations_en": [
+        "and"
+      ],
+      "variants": [
+        "wa"
+      ],
+      "examples": [],
+      "etymology": "",
+      "comment": "Сочинит. союз; также употребляется как относительная частица «который; если».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0144",
+      "lemma": "na",
+      "lemma_lat": "na",
+      "lemma_cyr": "на",
+      "pos": "part",
+      "pos_ru": "част.",
+      "pos_full": "частица",
+      "domain": "служебные",
+      "translations_ru": [
+        "не",
+        "нет"
+      ],
+      "translations_en": [
+        "not"
+      ],
+      "variants": [
+        "nus",
+        "nas"
+      ],
+      "examples": [
+        {
+          "isk": "Hē ciz nus vud.",
+          "ru": "Ничего не было."
+        }
+      ],
+      "etymology": "",
+      "comment": "Отрицание. Forms: na, nus; забак. nas.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0145",
+      "lemma": "bale",
+      "lemma_lat": "bale",
+      "lemma_cyr": "бале",
+      "pos": "part",
+      "pos_ru": "част.",
+      "pos_full": "частица",
+      "domain": "служебные",
+      "translations_ru": [
+        "да"
+      ],
+      "translations_en": [
+        "yes"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Перс. bale.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0146",
+      "lemma": "tā",
+      "lemma_lat": "ta",
+      "lemma_cyr": "та",
+      "pos": "prep",
+      "pos_ru": "предл.",
+      "pos_full": "предлог",
+      "domain": "служебные",
+      "translations_ru": [
+        "до",
+        "пока"
+      ],
+      "translations_en": [
+        "until",
+        "up to"
+      ],
+      "variants": [
+        "to"
+      ],
+      "examples": [
+        {
+          "isk": "Wak roz tā vužēr nulust.",
+          "ru": "Один день до вечера он сидел."
+        }
+      ],
+      "etymology": "Перс. tā.",
+      "comment": "Предлог. tā-za «до тех пор, пока».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0147",
+      "lemma": "tar",
+      "lemma_lat": "tar",
+      "lemma_cyr": "тар",
+      "pos": "prep",
+      "pos_ru": "предл.",
+      "pos_full": "предлог",
+      "domain": "служебные",
+      "translations_ru": [
+        "к",
+        "в",
+        "на"
+      ],
+      "translations_en": [
+        "to",
+        "into",
+        "on to"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Tar pādšā qušlāq šud.",
+          "ru": "Он пошёл в царский город."
+        }
+      ],
+      "etymology": "",
+      "comment": "Предлог направления.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0148",
+      "lemma": "tsa",
+      "lemma_lat": "tsa",
+      "lemma_cyr": "ца",
+      "pos": "prep",
+      "pos_ru": "предл.",
+      "pos_full": "предлог",
+      "domain": "служебные",
+      "translations_ru": [
+        "из",
+        "от",
+        "с"
+      ],
+      "translations_en": [
+        "from"
+      ],
+      "variants": [
+        "ts'-"
+      ],
+      "examples": [
+        {
+          "isk": "Χurs tsa urwēs frut.",
+          "ru": "Медведь спросил у лисы."
+        }
+      ],
+      "etymology": "",
+      "comment": "Предлог; часто теряет гласный: ts'-wadak «оттуда».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0149",
+      "lemma": "darūn",
+      "lemma_lat": "darun",
+      "lemma_cyr": "дарун",
+      "pos": "postp",
+      "pos_ru": "послел.",
+      "pos_full": "послелог",
+      "domain": "служебные",
+      "translations_ru": [
+        "внутри",
+        "внутрь",
+        "среди"
+      ],
+      "translations_en": [
+        "within",
+        "among"
+      ],
+      "variants": [
+        "dardún"
+      ],
+      "examples": [
+        {
+          "isk": "Tu māl darūn wak kabūt vuz åst.",
+          "ru": "Среди твоего скота есть синяя коза."
+        }
+      ],
+      "etymology": "Перс. darūn.",
+      "comment": "Послелог. po … darūn «внутри».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0150",
+      "lemma": "viš",
+      "lemma_lat": "vish",
+      "lemma_cyr": "виш",
+      "pos": "postp",
+      "pos_ru": "послел.",
+      "pos_full": "послелог",
+      "domain": "служебные",
+      "translations_ru": [
+        "под",
+        "внизу"
+      ],
+      "translations_en": [
+        "below",
+        "under"
+      ],
+      "variants": [
+        "vъš"
+      ],
+      "examples": [
+        {
+          "isk": "Cenār viš šud.",
+          "ru": "Он пошёл под чинар (платан)."
+        }
+      ],
+      "etymology": "",
+      "comment": "Послелог. pī viš «под ним».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0151",
+      "lemma": "bā",
+      "lemma_lat": "ba",
+      "lemma_cyr": "ба",
+      "pos": "postp",
+      "pos_ru": "послел.",
+      "pos_full": "послелог",
+      "domain": "служебные",
+      "translations_ru": [
+        "к",
+        "для"
+      ],
+      "translations_en": [
+        "to",
+        "for"
+      ],
+      "variants": [
+        "-bo"
+      ],
+      "examples": [
+        {
+          "isk": "Mum-bā dai.",
+          "ru": "Дай мне."
+        }
+      ],
+      "etymology": "",
+      "comment": "Послелог дательного значения; присоединяется к слову: mum-bā «мне», tu-bā «тебе».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0152",
+      "lemma": "dūd",
+      "lemma_lat": "dud",
+      "lemma_cyr": "дуд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "дым",
+        "копоть"
+      ],
+      "translations_en": [
+        "smoke"
+      ],
+      "variants": [
+        "did",
+        "dit"
+      ],
+      "examples": [
+        {
+          "isk": "Kāson-tsa uk χon did nēzu.",
+          "ru": "Из одного дома идёт дым."
+        }
+      ],
+      "etymology": "Иран. *dūta-.",
+      "comment": "Язгул. δād. Пахалина: did.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0153",
+      "lemma": "yau",
+      "lemma_lat": "yau",
+      "lemma_cyr": "йау",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "еда",
+      "translations_ru": [
+        "провизия",
+        "припасы",
+        "зерно"
+      ],
+      "translations_en": [
+        "provisions"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "",
+      "comment": "Вах. zau.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0154",
+      "lemma": "qušlāq",
+      "lemma_lat": "qushlaq",
+      "lemma_cyr": "кушлак",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "селение",
+        "кишлак",
+        "город"
+      ],
+      "translations_en": [
+        "town",
+        "village"
+      ],
+      "variants": [
+        "qišlāq"
+      ],
+      "examples": [
+        {
+          "isk": "Tar pādšā qušlāq šud.",
+          "ru": "Он пошёл в царский город."
+        }
+      ],
+      "etymology": "Тюрк. qišlāq.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0155",
+      "lemma": "xabar",
+      "lemma_lat": "khabar",
+      "lemma_cyr": "хабар",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "весть",
+        "известие",
+        "новость"
+      ],
+      "translations_en": [
+        "news"
+      ],
+      "variants": [
+        "χabar"
+      ],
+      "examples": [
+        {
+          "isk": "Ciz χabar åst?",
+          "ru": "Какие есть новости?"
+        }
+      ],
+      "etymology": "Араб. χabar.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0156",
+      "lemma": "watan",
+      "lemma_lat": "watan",
+      "lemma_cyr": "ватан",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "родина",
+        "отечество"
+      ],
+      "translations_en": [
+        "homeland"
+      ],
+      "variants": [
+        "wotán"
+      ],
+      "examples": [],
+      "etymology": "Араб. waṭan.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0157",
+      "lemma": "dunyo",
+      "lemma_lat": "dunyo",
+      "lemma_cyr": "дунйо",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "мир",
+        "вселенная"
+      ],
+      "translations_en": [
+        "world"
+      ],
+      "variants": [
+        "dъnyo"
+      ],
+      "examples": [],
+      "etymology": "Араб. dunyā.",
+      "comment": "Заимствование; сангл. dönyā.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0158",
+      "lemma": "dīn",
+      "lemma_lat": "din",
+      "lemma_cyr": "дин",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "вера",
+        "религия"
+      ],
+      "translations_en": [
+        "faith",
+        "religion"
+      ],
+      "variants": [],
+      "examples": [],
+      "etymology": "Араб. dīn.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0159",
+      "lemma": "dard",
+      "lemma_lat": "dard",
+      "lemma_cyr": "дард",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "боль"
+      ],
+      "translations_en": [
+        "pain"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Mъno sar dard.",
+          "ru": "У меня болит голова (головная боль)."
+        }
+      ],
+      "etymology": "Перс. dard.",
+      "comment": "Заимствование; забак. dard.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    }
+  ]
+}

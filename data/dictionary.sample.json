@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "version": "1.0-sample",
+    "entry_count": 20,
+    "description": "Тестовый набор из 20 статей для ранней отладки поиска и интерфейса."
+  },
+  "entries": [
+    {
+      "id": "isk_0004",
+      "lemma": "vrūd",
+      "lemma_lat": "vrud",
+      "lemma_cyr": "вруд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "люди",
+      "translations_ru": [
+        "брат"
+      ],
+      "translations_en": [
+        "brother"
+      ],
+      "variants": [
+        "vru",
+        "warūd"
+      ],
+      "examples": [],
+      "etymology": "Авест. brātar-; ср. тадж. бародар.",
+      "comment": "Забак. warūd — с гласной-вставкой (сварабхакти). Мн. ч. vrudárən.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0015",
+      "lemma": "tsām",
+      "lemma_lat": "tsam",
+      "lemma_cyr": "цам",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "тело",
+      "translations_ru": [
+        "глаз"
+      ],
+      "translations_en": [
+        "eye"
+      ],
+      "variants": [
+        "čъm"
+      ],
+      "examples": [
+        {
+          "isk": "Tu χē tsām kūr kun.",
+          "ru": "Сделай свой (собственный) глаз слепым."
+        }
+      ],
+      "etymology": "Авест. čašman-; ср. тадж. чашм.",
+      "comment": "Группа -šm- > -m-. Неодушевл. мн. ч. согласуется с глаголом в ед. ч.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0031",
+      "lemma": "kud",
+      "lemma_lat": "kud",
+      "lemma_cyr": "куд",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "собака"
+      ],
+      "translations_en": [
+        "dog"
+      ],
+      "variants": [
+        "ked"
+      ],
+      "examples": [
+        {
+          "isk": "Wak kud āγad.",
+          "ru": "Пришла (одна) собака."
+        }
+      ],
+      "etymology": "",
+      "comment": "Забак. ked; вах. šac.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0032",
+      "lemma": "vuz",
+      "lemma_lat": "vuz",
+      "lemma_cyr": "вуз",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "животные",
+      "translations_ru": [
+        "коза"
+      ],
+      "translations_en": [
+        "goat"
+      ],
+      "variants": [
+        "wuz"
+      ],
+      "examples": [
+        {
+          "isk": "Wa vuz-i zōγd āγad.",
+          "ru": "Он взял козу и пришёл."
+        }
+      ],
+      "etymology": "Авест. buza-; ср. тадж. буз.",
+      "comment": "Начальный b- > v-. Забак. wuz.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0050",
+      "lemma": "wek",
+      "lemma_lat": "wek",
+      "lemma_cyr": "век",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "вода"
+      ],
+      "translations_en": [
+        "water"
+      ],
+      "variants": [
+        "vek"
+      ],
+      "examples": [
+        {
+          "isk": "Vek mъm-bo īžъm!",
+          "ru": "Принеси мне воды!"
+        }
+      ],
+      "etymology": "Ср. вах. yupk, мундж. yāoγa.",
+      "comment": "Протетическое w-/v-. Забак. wē — с отпадением конечного -k.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0060",
+      "lemma": "χān",
+      "lemma_lat": "khan",
+      "lemma_cyr": "хан",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "дом_быт",
+      "translations_ru": [
+        "дом"
+      ],
+      "translations_en": [
+        "house"
+      ],
+      "variants": [
+        "χon",
+        "χā"
+      ],
+      "examples": [
+        {
+          "isk": "Az-im nēr tar pādšā χān šud.",
+          "ru": "Сегодня я пошёл в царский дом."
+        }
+      ],
+      "etymology": "Ср. тадж. хона.",
+      "comment": "Пахалина: χon; забак. χā — с отпадением конечного -n.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0046",
+      "lemma": "rēmuz",
+      "lemma_lat": "remuz",
+      "lemma_cyr": "ремуз",
+      "pos": "noun",
+      "pos_ru": "сущ.",
+      "pos_full": "существительное",
+      "domain": "природа",
+      "translations_ru": [
+        "солнце"
+      ],
+      "translations_en": [
+        "sun"
+      ],
+      "variants": [
+        "ōrmozd"
+      ],
+      "examples": [],
+      "etymology": "Восходит к др.-перс. ahuramazdāh- «Ахура-Мазда».",
+      "comment": "Замечательное слово: забак. ōrmozd почти буквально сохраняет имя Ахура-Мазды. Произошло отождествление солнца с верховным божеством зороастризма.",
+      "sources": [
+        "Grierson 1920"
+      ]
+    },
+    {
+      "id": "isk_0075",
+      "lemma": "frī",
+      "lemma_lat": "fri",
+      "lemma_cyr": "фри",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "хороший",
+        "добрый"
+      ],
+      "translations_en": [
+        "good"
+      ],
+      "variants": [
+        "ferī"
+      ],
+      "examples": [
+        {
+          "isk": "Frī χē tsām kift.",
+          "ru": "Добрый (человек) выколол свой глаз."
+        }
+      ],
+      "etymology": "",
+      "comment": "Вах. bāf; забак. ferī. Употр. также как имя героя сказки.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0076",
+      "lemma": "šak",
+      "lemma_lat": "shak",
+      "lemma_cyr": "шак",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "плохой",
+        "злой"
+      ],
+      "translations_en": [
+        "bad",
+        "wicked"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Šak mul.",
+          "ru": "Злой (человек) умер."
+        }
+      ],
+      "etymology": "",
+      "comment": "Вах. šak. В сказке — имя злого героя.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0085",
+      "lemma": "kabūt",
+      "lemma_lat": "kabut",
+      "lemma_cyr": "кабут",
+      "pos": "adj",
+      "pos_ru": "прил.",
+      "pos_full": "прилагательное",
+      "domain": "признаки",
+      "translations_ru": [
+        "синий",
+        "голубой"
+      ],
+      "translations_en": [
+        "blue"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Tu māl darūn wak kabūt vuz åst.",
+          "ru": "Среди твоего скота есть синяя коза."
+        }
+      ],
+      "etymology": "Перс. kabūd.",
+      "comment": "Вах. sāvz.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0097",
+      "lemma": "punz",
+      "lemma_lat": "punz",
+      "lemma_cyr": "пунз",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "пять"
+      ],
+      "translations_en": [
+        "five"
+      ],
+      "variants": [
+        "pūnz"
+      ],
+      "examples": [],
+      "etymology": "Авест. panča; ср. тадж. панҷ.",
+      "comment": "Группа -nč- > -nz-. Забак. pūnz.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0102",
+      "lemma": "dah",
+      "lemma_lat": "dah",
+      "lemma_cyr": "дах",
+      "pos": "num",
+      "pos_ru": "числ.",
+      "pos_full": "числительное",
+      "domain": "числа",
+      "translations_ru": [
+        "десять"
+      ],
+      "translations_en": [
+        "ten"
+      ],
+      "variants": [
+        "dōs"
+      ],
+      "examples": [
+        {
+          "isk": "Nēr-bā dah roz tamuχ-bā qarār vud.",
+          "ru": "До сегодняшнего дня вам был дан срок в десять дней."
+        }
+      ],
+      "etymology": "Авест. dasa; ср. тадж. даҳ.",
+      "comment": "Собственно ишк. dah заимств. из перс.; исконная форма — забак. dōs.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0105",
+      "lemma": "az",
+      "lemma_lat": "az",
+      "lemma_cyr": "аз",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "я"
+      ],
+      "translations_en": [
+        "I"
+      ],
+      "variants": [
+        "azъm"
+      ],
+      "examples": [
+        {
+          "isk": "Az tu-bā dayum.",
+          "ru": "Я тебе дам."
+        }
+      ],
+      "etymology": "Авест. azəm; ср. тадж. ман (иной корень).",
+      "comment": "Дат. mum-bā «мне», род. mun «мой».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0106",
+      "lemma": "tu",
+      "lemma_lat": "tu",
+      "lemma_cyr": "ту",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "ты"
+      ],
+      "translations_en": [
+        "thou",
+        "you (sg.)"
+      ],
+      "variants": [
+        "tъ"
+      ],
+      "examples": [
+        {
+          "isk": "Tu-t kum dzā vud?",
+          "ru": "Ты где был?"
+        }
+      ],
+      "etymology": "Авест. tū; ср. тадж. ту.",
+      "comment": "Дат. tu-bā «тебе», род. ti «твой», мн. tamuχ «вы».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0107",
+      "lemma": "wa",
+      "lemma_lat": "wa",
+      "lemma_cyr": "ва",
+      "pos": "pron",
+      "pos_ru": "мест.",
+      "pos_full": "местоимение",
+      "domain": "местоимения",
+      "translations_ru": [
+        "он",
+        "она",
+        "оно",
+        "тот"
+      ],
+      "translations_en": [
+        "he",
+        "she",
+        "it",
+        "that"
+      ],
+      "variants": [
+        "āo",
+        "wō"
+      ],
+      "examples": [
+        {
+          "isk": "Wa cenār nad.",
+          "ru": "Он схватил чинар (платан)."
+        }
+      ],
+      "etymology": "",
+      "comment": "Указат. местоим. дальнего плана; одновременно личное мест. 3 л. Объектная форма wan, мн. wēv.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0115",
+      "lemma": "dayuk",
+      "lemma_lat": "dayuk",
+      "lemma_cyr": "дайук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "давать"
+      ],
+      "translations_en": [
+        "to give"
+      ],
+      "variants": [
+        "day-",
+        "dud"
+      ],
+      "examples": [
+        {
+          "isk": "Az tu-bā dayum.",
+          "ru": "Я тебе дам."
+        }
+      ],
+      "etymology": "Авест. √dā-; ср. тадж. додан.",
+      "comment": "Основы: наст. day-, прош. dud. para-day- «продавать».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0117",
+      "lemma": "suk",
+      "lemma_lat": "suk",
+      "lemma_cyr": "сук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "идти",
+        "становиться"
+      ],
+      "translations_en": [
+        "to go",
+        "to become"
+      ],
+      "variants": [
+        "su-",
+        "šud",
+        "som"
+      ],
+      "examples": [
+        {
+          "isk": "Cenār viš šud.",
+          "ru": "Он пошёл под чинар (платан)."
+        }
+      ],
+      "etymology": "Авест. √šu-; ср. тадж. шудан.",
+      "comment": "Основы: наст. su-/šu-, прош. šud. Как и тадж. шудан, значит и «идти», и «становиться».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0118",
+      "lemma": "wenuk",
+      "lemma_lat": "wenuk",
+      "lemma_cyr": "венук",
+      "pos": "verb",
+      "pos_ru": "гл.",
+      "pos_full": "глагол",
+      "domain": "действия",
+      "translations_ru": [
+        "видеть"
+      ],
+      "translations_en": [
+        "to see"
+      ],
+      "variants": [
+        "wen-",
+        "wend",
+        "vīnum"
+      ],
+      "examples": [
+        {
+          "isk": "Tъ-t wan na-wendúk-o?",
+          "ru": "Ты его (её) не видела?"
+        }
+      ],
+      "etymology": "Авест. √vaen-.",
+      "comment": "Основы: наст. wen-, прош. wend. Забак. vīnum «(я) вижу».",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0142",
+      "lemma": "agar",
+      "lemma_lat": "agar",
+      "lemma_cyr": "агар",
+      "pos": "conj",
+      "pos_ru": "союз",
+      "pos_full": "союз",
+      "domain": "служебные",
+      "translations_ru": [
+        "если"
+      ],
+      "translations_en": [
+        "if"
+      ],
+      "variants": [],
+      "examples": [
+        {
+          "isk": "Agar nakwa vuz avīrī, i tsām tāza šu.",
+          "ru": "Если он найдёт эту козу, её глаза исцелятся."
+        }
+      ],
+      "etymology": "Перс. agar.",
+      "comment": "Заимствование.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    },
+    {
+      "id": "isk_0144",
+      "lemma": "na",
+      "lemma_lat": "na",
+      "lemma_cyr": "на",
+      "pos": "part",
+      "pos_ru": "част.",
+      "pos_full": "частица",
+      "domain": "служебные",
+      "translations_ru": [
+        "не",
+        "нет"
+      ],
+      "translations_en": [
+        "not"
+      ],
+      "variants": [
+        "nus",
+        "nas"
+      ],
+      "examples": [
+        {
+          "isk": "Hē ciz nus vud.",
+          "ru": "Ничего не было."
+        }
+      ],
+      "etymology": "",
+      "comment": "Отрицание. Forms: na, nus; забак. nas.",
+      "sources": [
+        "Grierson 1920",
+        "Пахалина 1959"
+      ]
+    }
+  ]
+}

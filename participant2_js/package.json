@@ -1,0 +1,11 @@
+{
+  "name": "ishkashim-dictionary-participant2-search",
+  "version": "1.0.0",
+  "description": "Search logic for the Ishkashimi educational web dictionary",
+  "type": "module",
+  "scripts": {
+    "test:sample": "node scripts/test_search.js ../data/dictionary.sample.json",
+    "test:full": "node scripts/test_search.js ../data/dictionary.json"
+  },
+  "private": true
+}

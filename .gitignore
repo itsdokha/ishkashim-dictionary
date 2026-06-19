@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Локальные настройки Claude Code
+.claude/settings.local.json
+
+# Сборочные артефакты презентации (исходник — presentation.marp.md)
+# Раскомментируй, если не хочешь хранить бинарники в репозитории:
+# participant3_web/presentation.pdf
+# participant3_web/presentation.pptx
+# participant3_web/presentation.html
+
+# Личный черновик речи (не для публикации)
+participant3_web/SPEECH_DRAFT.md
